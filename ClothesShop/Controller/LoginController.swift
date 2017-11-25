@@ -42,7 +42,7 @@ class LoginController: UIViewController, GIDSignInUIDelegate {
         
         password.layer.cornerRadius = 20
         password.layer.masksToBounds = true
-        
+        password.isSecureTextEntry = true
     }
     
     @IBAction func handleLogin(_ sender: Any) {
@@ -61,7 +61,10 @@ class LoginController: UIViewController, GIDSignInUIDelegate {
                     print(error.localizedDescription)
                 }
                 
-                print("login success")
+                if let viewController = self.storyboard?.instantiateViewController(withIdentifier: "HomeController") {
+                    self.navigationController?.pushViewController(viewController, animated: true)
+                    self.dismiss(animated: true, completion: nil)
+                }
             }
         }
     }
@@ -98,10 +101,10 @@ class LoginController: UIViewController, GIDSignInUIDelegate {
                         databaseRef.child("user-profiles").child(uid).child("email").setValue(user?.email)
                     }
                     
-//                    if let viewController = self.storyboard?.instantiateViewController(withIdentifier: "Main") {
-//                        UIApplication.shared.keyWindow?.rootViewController = viewController
-//                        self.dismiss(animated: true, completion: nil)
-//                    }
+                    if let viewController = self.storyboard?.instantiateViewController(withIdentifier: "HomeController") {
+                        UIApplication.shared.keyWindow?.rootViewController = viewController
+                        self.dismiss(animated: true, completion: nil)
+                    }
                 })
             })
         }

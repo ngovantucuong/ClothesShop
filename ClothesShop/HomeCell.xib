@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="154" id="RAa-Ki-ex4" customClass="HomeCell" customModule="ClothesShop" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="RAa-Ki-ex4" id="k9u-mC-Q0K">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="249.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="saleBackground" translatesAutoresizingMaskIntoConstraints="NO" id="76n-QO-0eF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="249.5"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="76n-QO-0eF" firstAttribute="top" secondItem="k9u-mC-Q0K" secondAttribute="top" id="5j0-Ic-bTK"/>
+                    <constraint firstAttribute="bottom" secondItem="76n-QO-0eF" secondAttribute="bottom" id="LsA-bL-kM9"/>
+                    <constraint firstItem="76n-QO-0eF" firstAttribute="leading" secondItem="k9u-mC-Q0K" secondAttribute="leading" id="njB-3l-iOg"/>
+                    <constraint firstAttribute="trailing" secondItem="76n-QO-0eF" secondAttribute="trailing" id="uQ6-tS-AZe"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="picture" destination="76n-QO-0eF" id="KHF-6T-2Zc"/>
+            </connections>
+            <point key="canvasLocation" x="12.5" y="145"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="saleBackground" width="282" height="126"/>
+    </resources>
+</document>

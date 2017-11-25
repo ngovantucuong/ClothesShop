@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		6940AF9EF95F751F57E33CF8 /* Pods_ClothesShop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BF99648C8639E1DEDD6E920 /* Pods_ClothesShop.framework */; };
+		E86BF2141FC4565F000E06BE /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86BF2131FC4565F000E06BE /* HomeController.swift */; };
+		E86BF2161FC457F0000E06BE /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E86BF2151FC457F0000E06BE /* HomeCell.xib */; };
+		E86BF2181FC462D7000E06BE /* HomeCategory.xib in Resources */ = {isa = PBXBuildFile; fileRef = E86BF2171FC462D7000E06BE /* HomeCategory.xib */; };
 		E8917BF61FBDB97900746974 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8917BF51FBDB97900746974 /* AppDelegate.swift */; };
 		E8917BFB1FBDB97900746974 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8917BF91FBDB97900746974 /* Main.storyboard */; };
 		E8917BFE1FBDB97900746974 /* ClothesShop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E8917BFC1FBDB97900746974 /* ClothesShop.xcdatamodeld */; };
@@ -27,11 +30,20 @@
 		E8917C241FBDC5B600746974 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8917C231FBDC5B600746974 /* Extension.swift */; };
 		E8C534371FC03ADD00279145 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C534361FC03ADD00279145 /* LoginController.swift */; };
 		E8C5343A1FC05DD100279145 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E8C534391FC05DD100279145 /* GoogleService-Info.plist */; };
+		E8DFA8361FC58E9E002DFC74 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DFA8351FC58E9E002DFC74 /* HomeCell.swift */; };
+		E8DFA8381FC58ED9002DFC74 /* HomeCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DFA8371FC58ED9002DFC74 /* HomeCategoryCell.swift */; };
+		E8DFA83B1FC59B34002DFC74 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DFA83A1FC59B34002DFC74 /* Category.swift */; };
+		E8F4797F1FC6F56200DDBBA7 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F4797E1FC6F56200DDBBA7 /* MenuController.swift */; };
+		E8F479811FC6FC9600DDBBA7 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F479801FC6FC9600DDBBA7 /* MenuCell.swift */; };
+		E8F479831FC700DE00DDBBA7 /* CategoryProductController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F479821FC700DE00DDBBA7 /* CategoryProductController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0BF99648C8639E1DEDD6E920 /* Pods_ClothesShop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClothesShop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C731CC1536CFA13C3E4E2338 /* Pods-ClothesShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClothesShop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClothesShop/Pods-ClothesShop.debug.xcconfig"; sourceTree = "<group>"; };
+		E86BF2131FC4565F000E06BE /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		E86BF2151FC457F0000E06BE /* HomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
+		E86BF2171FC462D7000E06BE /* HomeCategory.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCategory.xib; sourceTree = "<group>"; };
 		E8917BF21FBDB97900746974 /* ClothesShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClothesShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8917BF51FBDB97900746974 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8917BFA1FBDB97900746974 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +66,12 @@
 		E8C534361FC03ADD00279145 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		E8C534381FC0519900279145 /* ClothesShop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ClothesShop.entitlements; sourceTree = "<group>"; };
 		E8C534391FC05DD100279145 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E8DFA8351FC58E9E002DFC74 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		E8DFA8371FC58ED9002DFC74 /* HomeCategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCategoryCell.swift; sourceTree = "<group>"; };
+		E8DFA83A1FC59B34002DFC74 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		E8F4797E1FC6F56200DDBBA7 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		E8F479801FC6FC9600DDBBA7 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		E8F479821FC700DE00DDBBA7 /* CategoryProductController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryProductController.swift; sourceTree = "<group>"; };
 		EF8EE375D86DBA6472C85CBA /* Pods-ClothesShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClothesShop.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClothesShop/Pods-ClothesShop.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,6 +125,8 @@
 		E8917BF41FBDB97900746974 /* ClothesShop */ = {
 			isa = PBXGroup;
 			children = (
+				E8DFA8391FC59B10002DFC74 /* Model */,
+				E8DFA8341FC58E45002DFC74 /* View */,
 				E8C534381FC0519900279145 /* ClothesShop.entitlements */,
 				E8917C221FBDC59F00746974 /* Extension */,
 				E8917C1F1FBDC3C000746974 /* Controller */,
@@ -118,6 +138,8 @@
 				E8917BFC1FBDB97900746974 /* ClothesShop.xcdatamodeld */,
 				E8C534391FC05DD100279145 /* GoogleService-Info.plist */,
 				E8917C0A1FBDC12E00746974 /* DesignableX */,
+				E86BF2151FC457F0000E06BE /* HomeCell.xib */,
+				E86BF2171FC462D7000E06BE /* HomeCategory.xib */,
 			);
 			path = ClothesShop;
 			sourceTree = "<group>";
@@ -144,6 +166,9 @@
 			children = (
 				E8917C201FBDC3E700746974 /* RegisterController.swift */,
 				E8C534361FC03ADD00279145 /* LoginController.swift */,
+				E86BF2131FC4565F000E06BE /* HomeController.swift */,
+				E8F4797E1FC6F56200DDBBA7 /* MenuController.swift */,
+				E8F479821FC700DE00DDBBA7 /* CategoryProductController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -154,6 +179,24 @@
 				E8917C231FBDC5B600746974 /* Extension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		E8DFA8341FC58E45002DFC74 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E8DFA8351FC58E9E002DFC74 /* HomeCell.swift */,
+				E8DFA8371FC58ED9002DFC74 /* HomeCategoryCell.swift */,
+				E8F479801FC6FC9600DDBBA7 /* MenuCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E8DFA8391FC59B10002DFC74 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E8DFA83A1FC59B34002DFC74 /* Category.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,8 +268,10 @@
 			files = (
 				E8917C031FBDB97900746974 /* LaunchScreen.storyboard in Resources */,
 				E8C5343A1FC05DD100279145 /* GoogleService-Info.plist in Resources */,
+				E86BF2181FC462D7000E06BE /* HomeCategory.xib in Resources */,
 				E8917C001FBDB97900746974 /* Assets.xcassets in Resources */,
 				E8917BFB1FBDB97900746974 /* Main.storyboard in Resources */,
+				E86BF2161FC457F0000E06BE /* HomeCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,18 +353,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8F4797F1FC6F56200DDBBA7 /* MenuController.swift in Sources */,
 				E8917C241FBDC5B600746974 /* Extension.swift in Sources */,
 				E8917C1E1FBDC12E00746974 /* UIVisualEffectViewX.swift in Sources */,
+				E8DFA83B1FC59B34002DFC74 /* Category.swift in Sources */,
 				E8917C151FBDC12E00746974 /* UIButtonX.swift in Sources */,
 				E8917C161FBDC12E00746974 /* UIImageViewX.swift in Sources */,
 				E8C534371FC03ADD00279145 /* LoginController.swift in Sources */,
 				E8917C1D1FBDC12E00746974 /* UIViewXRadialGradient.swift in Sources */,
 				E8917C1C1FBDC12E00746974 /* UIViewX.swift in Sources */,
+				E8F479831FC700DE00DDBBA7 /* CategoryProductController.swift in Sources */,
 				E8917C1A1FBDC12E00746974 /* UIViewAnchorPoint.swift in Sources */,
 				E8917C171FBDC12E00746974 /* UILabelX.swift in Sources */,
 				E8917C1B1FBDC12E00746974 /* UIViewControllerX.swift in Sources */,
 				E8917C191FBDC12E00746974 /* UITextFieldX.swift in Sources */,
 				E8917C211FBDC3E700746974 /* RegisterController.swift in Sources */,
+				E8F479811FC6FC9600DDBBA7 /* MenuCell.swift in Sources */,
+				E86BF2141FC4565F000E06BE /* HomeController.swift in Sources */,
+				E8DFA8361FC58E9E002DFC74 /* HomeCell.swift in Sources */,
+				E8DFA8381FC58ED9002DFC74 /* HomeCategoryCell.swift in Sources */,
 				E8917BF61FBDB97900746974 /* AppDelegate.swift in Sources */,
 				E8917C181FBDC12E00746974 /* UISliderX.swift in Sources */,
 				E8917BFE1FBDB97900746974 /* ClothesShop.xcdatamodeld in Sources */,

@@ -117,6 +117,6 @@ class RegisterController: UIViewController, UIImagePickerControllerDelegate, UIN
     }
     
     @IBAction func handleLogin(_ sender: UIButton) {
-        
+        performSegue(withIdentifier: "backLogin", sender: nil)
     }
 }
